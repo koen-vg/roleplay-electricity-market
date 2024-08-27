@@ -25,17 +25,7 @@
 \usepackage{graphicx,dblfloatfix}
 \usepackage{csvsimple}
 
-% package to add header to every page
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead{}
-\fancyhead[LE,LO]{Roleplay Electricity Market - Aarhus University}
-\fancypagestyle{plain}{%
-         \fancyhead{}
-         \fancyhead[LE,LO]{Roleplay Electricity Market - Aarhus University}
-         \renewcommand{\headrulewidth}{0.0pt}% or whatever
-    }
-		
+
 %% new commands
 \newcommand{\ubar}[1]{\text{\b{$#1$}}}
 \newcommand*\OK{\ding{51}}
@@ -83,7 +73,7 @@
 \address[mymainaddress]{Department of Mechanical and Production Engineering, Aarhus University, Inge Lehmanns Gade 10, 8000 Aarhus, Denmark}
 
 \end{frontmatter}
-\thispagestyle{fancy}
+\pagestyle{empty}
 %\linenumbers
 
 
